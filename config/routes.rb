@@ -1,4 +1,6 @@
 Tripspace::Application.routes.draw do
+  resources :trips
+
   resources :recommendations
 
   root 'recommendations#index'
